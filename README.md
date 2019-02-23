@@ -7,6 +7,6 @@
 
 # Installation
 - Make npm install
-
+- Make npm start
 
 

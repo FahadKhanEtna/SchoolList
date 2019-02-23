@@ -43,8 +43,10 @@ export default class SchoolList extends Component {
             this.state.schoolList.push(prop)
             this.setState({
                 schoolList: this.state.schoolList,
-                fixSchoolList: this.state.schoolList,
                 isLoading:false
+            })
+            this.setState({
+                fixSchoolList: this.state.schoolList,
             })
             return true
         });
