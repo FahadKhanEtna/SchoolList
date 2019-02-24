@@ -31,6 +31,10 @@ export default class SchoolForm extends React.Component {
     window.location.href = "/school-list/"+value
   }
 
+  showfrenchSchoolList() {
+    window.location.href = "/french-school-list"
+  }
+
   render() {
     const { stateList, abbreviationValue} = this.state;
     return (
@@ -48,7 +52,8 @@ export default class SchoolForm extends React.Component {
               }
             </Input>          
           </FormGroup>
-          <Button color="success" onClick={()=>this.showSchoolList(abbreviationValue)}>Submit</Button>
+          <Button color="success" onClick={()=>this.showSchoolList(abbreviationValue)}>Submit</Button><br/><br/>
+          <Button color="success" onClick={()=>this.showfrenchSchoolList()}>French Schools</Button>
         </Form>
       </div>
     );

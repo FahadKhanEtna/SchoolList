@@ -1,0 +1,62 @@
+[
+    {
+      "schoolid": "1",
+      "schoolName": "ETNA",
+      "address": {
+        "latLong": 
+            {
+                "latitude": 48.8139,
+                "longitude": 2.3924299999999903
+            },
+        "street": "7 Rue Maurice Grandcoing",
+        "city": "Ivry-sur-Seine",
+        "state": "IDF",
+        "zip": "94200"
+      },
+      "schoolYearlyDetails": [
+        {
+          "numberOfStudents": 845
+        }
+      ]
+    },
+    {
+      "schoolid": "2",
+      "schoolName": "Epitech",
+      "address": {
+        "latLong": 
+            {
+                "latitude": 48.815223,
+                "longitude": 2.3629949
+            },
+        "street": "24 Rue Pasteur",
+        "city": "Le Kremlin-Bicêtre",
+        "state": "IDF",
+        "zip": "94270"
+      },
+      "schoolYearlyDetails": [
+        {
+          "numberOfStudents": 845
+        }
+      ]
+    },
+    {
+      "schoolid": "2",
+      "schoolName": "Ecole 42",
+      "address": {
+        "latLong": 
+            {
+                "latitude": 48.8964368,
+                "longitude": 2.3185781
+            },
+        "street": "96 Boulevard Bessières",
+        "city": "Paris",
+        "state": "IDF",
+        "zip": "75017"
+      },
+      "schoolYearlyDetails": [
+        {
+          "numberOfStudents": 845
+        }
+      ]
+    }
+]

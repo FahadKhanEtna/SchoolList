@@ -27,6 +27,7 @@ export default class SchoolList extends Component {
 
   componentDidMount() {
     let STATE_CODE = this.props.match.params.id
+    console.log(API_URL+'?st='+STATE_CODE+'&appID='+APP_ID+'&appKey='+API_KEY)
     fetch(API_URL+'?st='+STATE_CODE+'&appID='+APP_ID+'&appKey='+API_KEY)
     .then(res=>res.json())
     .then(school=> {

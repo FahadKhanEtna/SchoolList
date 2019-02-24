@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import SchoolForm from '../School-Form/school-form';
 import SchoolList from '../School-List/school-list';
+import FrenchSchoolList from '../French-School-List/french-school-list';
 
 export default class Home extends Component {
 
@@ -15,6 +16,7 @@ export default class Home extends Component {
           <h1>Schools</h1>
           <Route exact path='/' component={SchoolForm} />
           <Route path='/school-list/:id' component={SchoolList}/>
+          <Route path='/french-school-list' component={FrenchSchoolList}/>
         </div>
       </Router>
     );

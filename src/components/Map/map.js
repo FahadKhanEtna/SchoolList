@@ -13,8 +13,8 @@ export default class SimpleMap extends Component {
 
     state = {
         location: {
-            lat: 31.310664,
-            lng: -85.716025,
+            lat: this.props.latitude,
+            lng: this.props.longitude,
         },
         zoom: 13,
     }

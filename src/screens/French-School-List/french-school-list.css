@@ -1,0 +1,46 @@
+.school-list-container {
+    position: relative
+}
+
+.map-container {
+    position: absolute; 
+    width: 100%;
+    top: 45px
+}
+
+.close-cross-container {
+    position: relative
+}
+
+.close-cross {
+    position:absolute;
+    font-size:30px; 
+    right:15px; 
+    top:5px;
+    z-index: 9999;
+    cursor:pointer
+}
+
+.go-form-container {
+    margin-bottom: 20px;
+    text-align: left    
+}
+
+.search-bar {
+    width: 50%; 
+    display: inline-block; 
+    text-align: right
+}
+
+.show-all-container {
+    margin-bottom: 20px; 
+    text-align: right
+}
+
+.show-all-button {
+    width: auto; 
+    margin: 0;
+    text-decoration: underline;
+    color: blue; 
+    cursor: pointer
+}
